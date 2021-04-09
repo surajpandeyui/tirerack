@@ -1,0 +1,249 @@
+.container {
+  max-width: 1020px!important;
+}
+.body {
+  font-family: gibson;
+}
+.bg-light-gray {
+  background-color: #eaeaea;
+}
+.bg-red {
+  background-color: #d70000;
+}
+.red-color {
+  color: #d70000;
+}
+.bg-gray {
+  background-color: #3c3837;
+}
+.bg-black {
+  background-color: #000000;
+}
+.footer-banner.container-fluid {
+  background-image: url(https://www.tirerack.com/content/dam/tirerack/desktop/css_elements/images/StudioFloor.jpg);
+  background-size: contain;
+}
+p {
+  font-family: aleo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.width-50 {
+  width: 50%;
+}
+.width-40 {
+  width: 40%;
+}
+.white-color {
+  color: #ffffff;
+} 
+.black-color {
+  color: #000000;
+}
+img {
+  max-width: 100%;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+.carousel-control-prev-icon {
+  padding: 20px;
+  color: #ffffff;
+}
+.carousel-control-next-icon {
+  padding: 20px;
+  color: #ffffff;
+}
+.caro-text {
+  width: 460px;
+  background: #00000080;
+}
+.right-values ul {
+  list-style: none;
+  font-family: gibson;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.carousel-item {
+  height: 550px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  top: 15%;
+  left: 55%;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+}
+.right-values ul li {
+  display: inline-block;
+  border-right: 2px solid #19170d;
+  font-family: gibson;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  float: left;
+  margin: 0;
+  padding: 0 8px;
+}
+.container-fluid.header-fluid {
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid #000000;
+}
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  border-radius: .25rem;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.navbar {
+  padding: 0rem 1rem!important;
+}
+.nav-link {
+  padding: 10px 30px 5px 30px!important;
+  color: #000000cf;
+  font-size: 16px;
+  font-weight: 600;
+}
+.width-80 {
+  width: 80%;
+}
+.width-100 {
+  width: 100%;
+}
+a#navbarDropdown:hover {
+  border-bottom: 4px solid #d73836;
+  color: #000000cf;
+}
+.bg-gray {
+  background-color: #e8e8e8;
+}
+.border-1 {
+  border: 1px solid #000000;
+}
+a#navbarDropdown:focus {
+  border-bottom: 4px solid #d73836;
+  color: #000000cf;
+}
+.banner-image.container-fluid {
+  background-image: url(https://www.tirerack.com/content/dam/tirerack/desktop/components/hero/homeSpring21.png);
+  background-size: cover;
+  background-position: right top;
+}
+.banner-circle{
+  color: #FFF;
+    background: none repeat scroll 0 0 #d70000;
+    border-radius: 50%;
+    width: 134px;
+    height: 133px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-tc {
+  height: 135px;
+    width: 134px;
+    left: 50%;
+    margin-left: -67px;
+    position: relative;
+    top: -62px;
+    z-index: 1;
+}
+.banner-circle p {
+  padding: 34px 0 1px;
+  font-family: gibson;
+  font-size: 16px;
+  line-height: 18px;
+}
+p.small-p {
+  font-size: 10px;
+}
+.need-car-banner.container-fluid {
+  background-image: url(https://www.tirerack.com/content/dam/tirerack/desktop/components/entertainment/FeatureVideoStill.jpg);
+  background-size: cover;
+  background-position: right top;
+}
+.tire-rating-banner.container-fluid {
+  background-image: url(https://www.tirerack.com/content/dam/tirerack/desktop/components/full-width-image-carousel/component_RatingsReviews.png);
+  background-size: cover;
+}
+.s-test-track-banner.container-fluid {
+  background-image: url(https://www.tirerack.com/content/dam/tirerack/desktop/homepage/Allseason-Testing.jpg);
+  background-size: cover;
+}
+.footer-banner a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.footer-banner li {
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-banner ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: none!important;
+}
+.desk {
+  display: block;
+}
+.mob-view {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .desk {
+    display: none;
+  }
+  .mob-view {
+    display: block;
+  }
+  
+  .right-values {
+      display: none;
+  }
+  .main-logo {
+      width: 70%;
+      float: right;
+  }
+  .menu-section {
+      width: 30%;
+      float: left;
+  }
+  .container-fluid.header-fluid {
+      padding: 10px 0px 65px 0px;
+      border-bottom: 1px solid #000000;
+  }
+  ul.navbar-nav.mr-auto {
+      margin-top: 15px;
+  }
+  .logo-ali {
+      margin-top: 10px;
+  }
+}
+  /* mobile slider */
+
+  .mob-banner-top.col {
+    background-image: url(https://m.tirerack.com/content/dam/tirerack/mobile/components/hero/Mobile_homeSpring21.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .mob-footer.container-fluid {
+    background-image: url(https://m.tirerack.com/content/dam/tirerack/desktop/css_elements/images/StudioFloor.jpg);
+    background-size: auto;
+}
+
